@@ -1,9 +1,14 @@
 import React from "react";
+import Content from "./MyComponents/content";
+import Footer from "./MyComponents/footer";
+import Header from "./MyComponents/header";
 
 export default function App(){
     return(
         <>
-            <h1>He hello there</h1>
+            <Header></Header>
+            <Content></Content>
+            <Footer></Footer>
         </>
     );
 }
